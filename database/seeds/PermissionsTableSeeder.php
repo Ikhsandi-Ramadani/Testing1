@@ -385,6 +385,86 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2020-12-12 17:42:19',
                 'updated_at' => '2020-12-12 17:42:19',
             ),
+            46 => 
+            array (
+                'id' => 47,
+                'key' => 'browse_shops',
+                'table_name' => 'shops',
+                'created_at' => '2020-12-12 18:50:50',
+                'updated_at' => '2020-12-12 18:50:50',
+            ),
+            47 => 
+            array (
+                'id' => 48,
+                'key' => 'read_shops',
+                'table_name' => 'shops',
+                'created_at' => '2020-12-12 18:50:50',
+                'updated_at' => '2020-12-12 18:50:50',
+            ),
+            48 => 
+            array (
+                'id' => 49,
+                'key' => 'edit_shops',
+                'table_name' => 'shops',
+                'created_at' => '2020-12-12 18:50:50',
+                'updated_at' => '2020-12-12 18:50:50',
+            ),
+            49 => 
+            array (
+                'id' => 50,
+                'key' => 'add_shops',
+                'table_name' => 'shops',
+                'created_at' => '2020-12-12 18:50:50',
+                'updated_at' => '2020-12-12 18:50:50',
+            ),
+            50 => 
+            array (
+                'id' => 51,
+                'key' => 'delete_shops',
+                'table_name' => 'shops',
+                'created_at' => '2020-12-12 18:50:50',
+                'updated_at' => '2020-12-12 18:50:50',
+            ),
+            51 => 
+            array (
+                'id' => 52,
+                'key' => 'browse_products',
+                'table_name' => 'products',
+                'created_at' => '2020-12-13 06:25:05',
+                'updated_at' => '2020-12-13 06:25:05',
+            ),
+            52 => 
+            array (
+                'id' => 53,
+                'key' => 'read_products',
+                'table_name' => 'products',
+                'created_at' => '2020-12-13 06:25:05',
+                'updated_at' => '2020-12-13 06:25:05',
+            ),
+            53 => 
+            array (
+                'id' => 54,
+                'key' => 'edit_products',
+                'table_name' => 'products',
+                'created_at' => '2020-12-13 06:25:05',
+                'updated_at' => '2020-12-13 06:25:05',
+            ),
+            54 => 
+            array (
+                'id' => 55,
+                'key' => 'add_products',
+                'table_name' => 'products',
+                'created_at' => '2020-12-13 06:25:05',
+                'updated_at' => '2020-12-13 06:25:05',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'key' => 'delete_products',
+                'table_name' => 'products',
+                'created_at' => '2020-12-13 06:25:05',
+                'updated_at' => '2020-12-13 06:25:05',
+            ),
         ));
         
         

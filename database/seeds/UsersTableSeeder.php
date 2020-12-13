@@ -12,15 +12,15 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('users')->delete();
-        
-        \DB::table('users')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('users')->insert(array(
+            0 =>
+            array(
                 'id' => 1,
-                'role_id' => 1,
+                'role_id' => 2,
                 'name' => 'Ikhsandi Ramadani',
                 'email' => 'sandi@gmail.com',
                 'avatar' => 'users/default.png',
@@ -31,8 +31,8 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2020-12-12 17:07:40',
                 'updated_at' => '2020-12-12 17:37:37',
             ),
-            1 => 
-            array (
+            1 =>
+            array(
                 'id' => 2,
                 'role_id' => 1,
                 'name' => 'admin',
@@ -45,8 +45,34 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2020-12-12 17:39:25',
                 'updated_at' => '2020-12-12 17:39:25',
             ),
+            2 =>
+            array(
+                'id' => 3,
+                'role_id' => 3,
+                'name' => 'Seller 1',
+                'email' => 'seller1@gmail.com',
+                'avatar' => 'users/default.png',
+                'email_verified_at' => NULL,
+                'password' => '$2y$10$FeaLcwR6tXQ99yfQFu.zkO3w4gxmC8GndTF2jEMItlNkHKv1zOpv2',
+                'remember_token' => NULL,
+                'settings' => NULL,
+                'created_at' => '2020-12-12 17:39:25',
+                'updated_at' => '2020-12-12 17:39:25',
+            ),
+            3 =>
+            array(
+                'id' => 4,
+                'role_id' => 3,
+                'name' => 'Seller 2',
+                'email' => 'seller2@gmail.com',
+                'avatar' => 'users/default.png',
+                'email_verified_at' => NULL,
+                'password' => '$2y$10$FeaLcwR6tXQ99yfQFu.zkO3w4gxmC8GndTF2jEMItlNkHKv1zOpv2',
+                'remember_token' => NULL,
+                'settings' => NULL,
+                'created_at' => '2020-12-12 17:39:25',
+                'updated_at' => '2020-12-12 17:39:25',
+            ),
         ));
-        
-        
     }
 }
